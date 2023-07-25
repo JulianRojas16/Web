@@ -1,82 +1,506 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StromTShirt</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
+      <header>
         <div class="menu container">
-            <a href="#" class="logo">StromTShirt</a>
-            <label for="menu"><img src="img/logo.jpg" alt=""></label>
+            <a href="#" ><img src="img/logo.jpg" class="logo"></a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="img/logo.jpg" class="menu-icono"></label>
             <nav class="navbar">
-                <div class="menu-1">
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Productos</a></li>
-                    </ul>
-                </div>
-                <img class="logo" src="img/logo.jpg">
-                <div class="menu-2">
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                    </ul>
-                    <div class="redes">
-                        <a href="#">
-                            <div class="social">
-                                <img src="img/f.svg" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="redes">
-                        <a href="#">
-                            <div class="social">
-                                <img src="img/i.svg" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="redes">
-                        <a href="#">
-                            <div class="social">
-                                <img src="img/w.svg" alt="">
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                </ul>
             </nav>
         </div>
-    </header>
-
-
-    <footer class="footer container">
-        <img class="logo" src="img/logo.jpg">
-        <div class="redes">
-            <a href="#">
-                <div class="social">
-                    <img src="img/f.svg" alt="">
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>StormTshirtCustom</h1>
+                <p>Estampado de camisetas, buzos, gorras, mugs entre otros, 
+                    totalmente personalizados al gusto de cada cliente, 
+                    al por mayor y al detal.
+                </p>
+                <div class="botones">
+                    <a href="#" class="btn-1">Comprar <img class="icon" src="img/car.svg"></a>
+                    <a href="#" class="btn-2">Informacion <img class="icon" src="img/arrow.svg"></a>
                 </div>
-            </a>
-        </div>
-        <div class="redes">
-            <a href="#">
-                <div class="social">
-                    <img src="img/i.svg" alt="">
+                <div class="header-img">
+                    <img src="img/ej-1.jpg" class="ejemplos">
                 </div>
-            </a>
+            </div>
         </div>
-        <div class="redes">
-            <a href="#">
-                <div class="social">
-                    <img src="img/w.svg" alt="">
-                </div>
-            </a>
-        </div>
-    </footer>
+      </header>  
 
+      <main class="producto-menu">
+        <div class="container">
+            <div class="product">
+                <h2 class="title">Menu</h2>
+            </div>
+            <div class="menu-nav">
+                <div class="tab active" id="pro1">Camisetas</div>
+                <div class="tab" id="pro2">Busos</div>
+                <div class="tab" id="pro3">Otros</div>
+            </div>
+            <div class="pro1 tab-content">
+                <div class="box-container-1">
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="img/c3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="img/c3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="img/c3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <center>
+                    <div class="load-more" id="load-more-1">Cargar más</div>
+                </center>
+            </div>
+            <div class="pro2 tab-content">
+                <div class="box-container-2">
+                    <div class="box-2">
+                        <div class="image">
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="image">
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="image">
+                            <img src="img/c3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="image">
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="image">
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="image">
+                            <img src="img/c3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="image">
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="image">
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="image">
+                            <img src="img/c3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <center>
+                    <div class="load-more" id="load-more-2">Cargar más</div>
+                </center>
+            </div>
+            <div class="pro3 tab-content">
+                <div class="box-container-3">
+                    <div class="box-3">
+                        <div class="image">
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="image">
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="image">
+                            <img src="img/c3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="image">
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="image">
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="image">
+                            <img src="img/c3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="image">
+                            <img src="img/c1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="image">
+                            <img src="img/c2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="image">
+                            <img src="img/c3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Camiseta personalizada</h3>
+                            <p>
+                                camiseta concierto de conceiertos 35 años
+                            </p>
+                            <div class="icons">
+                                <span class="price">$45.000</span>
+                                <span class="buy"><img src="img/car.svg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <center>
+                    <div class="load-more" id="load-more-3">Cargar más</div>
+                </center>
+            </div>
+        </div>
+      </main>
+      <section class="info">
+        <div class="info-content container">
+            <div class="info-txt">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+                <h2>Información</h2>
+                <div class="info-sec">
+                    <div class="info-1">
+                        <img class="logo" src="img/logo.jpg">
+                        <div class="info-2">
+                            <h3>Contacto</h3>
+                        </div>
+                    </div>
+                    <div class="info-1">
+                        <img class="logo" src="img/logo.jpg">
+                        <div class="info-2">
+                            <h3>Contacto</h3>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+      </section>
     <script src="script.js"></script>
 </body>
 </html>
